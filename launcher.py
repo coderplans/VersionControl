@@ -2,8 +2,8 @@ import requests
 import svn.remote
 import os.path
 
-versionUrl = "https://raw.githubusercontent.com/coderplans/VersionControlTest/master/version.txt"
-repoUrl = "https://github.com/coderplans/VersionControlTest.git"
+versionUrl = "https://raw.githubusercontent.com/NihilisticRealist/VersionControlTest/master/version.txt"
+repoUrl = "https://github.com/NihilisticRealist/VersionControlTest.git"
 
 cloudVer = requests.get(versionUrl)
 
