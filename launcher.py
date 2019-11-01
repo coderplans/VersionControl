@@ -22,7 +22,7 @@ if cloudVer > clientVer:
     print("All done!")
 
 elif cloudVer < clientVer:
-    print("What the heck did you DO to the version file?")
+    print("What in the name of the seven hells did you do to the version file?")
 
 else:
     print("All is well.")
